@@ -1,22 +1,13 @@
 import Image from "next/image";
-import Navbar from "../components/Navbar";
 import ArticleCard from "../components/ArticleCard";
 import SignupWidget from "../components/SignupWidget";
 import WorkWidget from "../components/WorkWidget";
 import SkillsWidget from "../components/SkillsWidget";
 
 export default function Home() {
-  // manu options
-  const navOptions = [
-    { label: "Home", path: "/" },
-    { label: "About", path: "/about" },
-    { label: "Projects", path: "/projects" },
-    { label: "Uses", path: "/uses" },
-  ];
-
   const experiences = [
-    { organization: "CS 220 Web Development", jobTitle: "Student & Learner", startYear: "May 2026", endYear: null },
-    { organization: "My Bedroom Desk", jobTitle: "Self-Taught Coder", startYear: "May 2026", endYear: null },
+    { organization: "CS 220 Web Development", jobTitle: "Student and Learner", startYear: "May 2026", endYear: null },
+    { organization: "My Bedroom Desk", jobTitle: "Self Taught Coder", startYear: "May 2026", endYear: null },
   ];
 
   const skills = [
@@ -27,11 +18,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-zinc-50 dark:bg-zinc-900 transition-colors duration-300">
-      {/*  navegation menu  */}
-      <div className="flex justify-center pt-6">
-        <Navbar options={navOptions} />
-      </div>
-
       <div className="max-w-5xl mx-auto px-4 sm:px-8 lg:px-12 py-16">
         {/* presentation */}
         <section className="max-w-2xl mb-24">
