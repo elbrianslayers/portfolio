@@ -6,8 +6,8 @@ import SkillsWidget from "../components/SkillsWidget";
 
 export default function Home() {
   const experiences = [
-    { organization: "CS 220 Web Development", jobTitle: "Student and Learner", startYear: "May 2026", endYear: null },
-    { organization: "My Bedroom Desk", jobTitle: "Self Taught Coder", startYear: "May 2026", endYear: null },
+    { organization: "CS 220 Fronted Fundamentals", jobTitle: "Student and Learner", startYear: "May - June 2026", endYear: null },
+    { organization: "My Bedroom Desk", jobTitle: "Self Taught Coder", startYear: "May - June 2026", endYear: null },
   ];
 
   const skills = [
@@ -29,7 +29,7 @@ export default function Home() {
             Hey, I am Brian, I am learning to code and build websites.
           </h1>
           <p className="text-base text-zinc-600 dark:text-zinc-400 mb-8 leading-relaxed">
-            I am a student currently completing my CS 220 web development course in this block May 2026. I am focusing on
+            I am a student currently completing my CS 220 web development course in this block May - June 2026. I am focusing on
             learning frontend foundations, figuring out how to structure web pages, and building my very first user
             interfaces using React.
           </p>
