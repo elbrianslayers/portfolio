@@ -11,7 +11,7 @@ export default function Home() {
   ];
 
   const skills = [
-    { name: "HTML & CSS", proficiency: "30%", icon: "/html-icon.png" },
+    { name: "HTML and CSS", proficiency: "30%", icon: "/html-icon.png" },
     { name: "JavaScript", proficiency: "28%", icon: "/js-icon.png" },
     { name: "React.js", proficiency: "20%", icon: "/react-icon.png" },
   ];
@@ -26,10 +26,10 @@ export default function Home() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-6 bg-gradient-to-r from-teal-500 to-blue-500 bg-clip-text text-transparent">
-            Hey, I'm Brian, I'm learning to code and build websites.
+            Hey, I am Brian, I am learning to code and build websites.
           </h1>
           <p className="text-base text-zinc-600 dark:text-zinc-400 mb-8 leading-relaxed">
-            I'm a student currently completing my CS 220 web development course in this block May 2026. I'm focusing on
+            I am a student currently completing my CS 220 web development course in this block May 2026. I am focusing on
             learning frontend foundations, figuring out how to structure web pages, and building my very first user
             interfaces using React.
           </p>
@@ -72,14 +72,14 @@ export default function Home() {
 
             <ArticleCard
               date="May 16, 2026"
-              title="Mastering DOM Events & Arrays"
+              title="Mastering DOM Events and Arrays"
               content="I learned how to manipulate the DOM using JavaScript. I practiced creating event listeners and modifying array data structures to make dynamic web pages."
               link="#"
             />
 
             <ArticleCard
               date="May 9, 2026"
-              title="JavaScript Foundations & Problem Solving"
+              title="JavaScript Foundations and Problem Solving"
               content="My very first steps into programming! I learned about variables, data types, and objects, and wrote scripts to automate tasks like calculating sales taxes for a shopping cart."
               link="#"
             />
@@ -93,12 +93,12 @@ export default function Home() {
             />
             <WorkWidget
               title="Experience"
-              content="Where I've been spending my time since May 2026."
+              content="Where I have been spending my time since May 2026."
               experiences={experiences}
             />
             <SkillsWidget
               title="My Toolbox"
-              content="The tech foundations I've been learning in CS 220."
+              content="The tech foundations I have been learning in CS 220."
               skills={skills}
             />
           </div>

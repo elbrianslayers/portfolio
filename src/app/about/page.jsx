@@ -7,21 +7,21 @@ export default function About() {
         {/* description */}
         <div className="flex flex-col gap-6">
           <h1 className="text-4xl sm:text-5xl font-bold text-zinc-800 dark:text-zinc-100 tracking-tight leading-tight">
-            I’m Brian, I live in Orem, originally from Mexico, and I'm learning how to build websites.
+            I am Brian, I live in Orem, originally from Mexico, and I am learning how to build websites.
           </h1>
 
           <div className="text-base text-zinc-600 dark:text-zinc-400 space-y-6">
             <p>
               I am a software engineering student taking the CS 220 web development course. I started programming out of
-              curiosity, and I'm currently focusing on frontend development.
+              curiosity, and I am currently focusing on frontend development.
             </p>
             <p>
-              Lately, I've been figuring out how to structure web pages and trying to understand React. It's been a fun
-              challenge learning how to use tools like Next.js and Tailwind CSS to turn designs into working code, and I
-              still have a lot to learn, but I try to improve a little bit every day.
+              Lately, I have been figuring out how to structure web pages and trying to understand React. It has been a
+              fun challenge learning how to use tools like Next.js and Tailwind CSS to turn designs into working code,
+              and I still have a lot to learn, but I try to improve a little bit every day.
             </p>
             <p>
-              When I'm not studying or doing homework, I like to work on small personal projects, I'm excited to keep
+              When I am not studying or doing homework, I like to work on small personal projects, I am excited to keep
               learning and improving my skills!
             </p>
           </div>
