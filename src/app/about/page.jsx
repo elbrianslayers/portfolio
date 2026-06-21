@@ -31,7 +31,7 @@ export default function About() {
         <div className="flex flex-col gap-8 lg:pl-10">
           <div className="w-full">
             <Image
-              src="/brian-profile.jpg"
+              src="/portfolio/brian-profile.jpg"
               alt="Portrait of Brian"
               width={500}
               height={500}
