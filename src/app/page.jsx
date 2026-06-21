@@ -11,10 +11,10 @@ export default function Home() {
   ];
 
   const skills = [
-    { name: "HTML and CSS", proficiency: "30%", icon: "/html-icon.png" },
-    { name: "JavaScript", proficiency: "28%", icon: "/js-icon.png" },
-    { name: "React.js", proficiency: "20%", icon: "/react-icon.png" },
-  ];
+  { name: "HTML and CSS", proficiency: "30%", icon: "/portfolio/html-icon.png" },
+  { name: "JavaScript", proficiency: "28%", icon: "/portfolio/js-icon.png" },
+  { name: "React.js", proficiency: "20%", icon: "/portfolio/react-icon.png" },
+];
 
   return (
     <main className="min-h-screen bg-zinc-50 dark:bg-zinc-900 transition-colors duration-300">
@@ -22,7 +22,7 @@ export default function Home() {
         {/* presentation */}
         <section className="max-w-2xl mb-24">
           <div className="w-16 h-16 rounded-full overflow-hidden border border-zinc-200 dark:border-zinc-700 shadow-md mb-8 bg-zinc-200 flex items-center justify-center">
-            <img src="/brian-profile.jpg" alt="Brian" className="w-full h-full object-cover" />
+            <img src="/portfolio/brian-profile.jpg" alt="Brian" className="w-full h-full object-cover" />
           </div>
 
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-6 bg-gradient-to-r from-teal-500 to-blue-500 bg-clip-text text-transparent">
