@@ -11,9 +11,7 @@ export default function WorkWidget({ title, content, experiences }) {
         {experiences.map((experience, index) => (
           <li key={index} className="flex items-center gap-4">
 
-            <div className="w-10 h-10 rounded-full bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 flex flex-none items-center justify-center text-[10px] text-zinc-500">
-              Logo
-            </div>
+          
 
             {/* job info */}
             <dl className="flex flex-auto flex-wrap gap-x-2">
