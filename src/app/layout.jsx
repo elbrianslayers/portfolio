@@ -15,10 +15,10 @@ export const metadata = {
 };
 
 const navOptions = [
-  { label: "Home", path: "/" },
-  { label: "About", path: "/about" },
-  { label: "Projects", path: "/projects" },
-  { label: "Uses", path: "/uses" },
+  { label: "Home", path: "/portfolio/" },
+  { label: "About", path: "/portfolio/about" },
+  { label: "Projects", path: "/portfolio/projects" },
+  { label: "Uses", path: "/portfolio/uses" },
 ];
 
 export default function RootLayout({ children }) {
