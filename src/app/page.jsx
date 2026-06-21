@@ -61,27 +61,27 @@ export default function Home() {
               date="June 15, 2026"
               title="Building my first Portfolio with Next.js"
               content="In my final CS 220 assignment, I gathered all the React components I built throughout the first block and unified them into a single, clean layout using Next.js."
-              link="#"
+              link="https://github.com/Ensign-College/cs-220-portfolio-v3-elbrianslayers"
             />
             <ArticleCard
               date="May 30, 2026"
               title="Creating Interactive React Components"
               content="I learned how to break down a webpage into reusable pieces, building a dynamic Navbar, a Dropdown menu, and a theme switcher to handle dark mode using React state."
-              link="#"
+              link="https://github.com/Ensign-College/cs220-cc-16-elbrianslayers"
             />
 
             <ArticleCard
               date="May 16, 2026"
               title="Mastering DOM Events and Arrays"
               content="I learned how to manipulate the DOM using JavaScript. I practiced creating event listeners and modifying array data structures to make dynamic web pages."
-              link="#"
+              link="https://github.com/Ensign-College/cs220-cc-09-elbrianslayers"
             />
 
             <ArticleCard
               date="May 9, 2026"
               title="JavaScript Foundations and Problem Solving"
               content="My very first steps into programming! I learned about variables, data types, and objects, and wrote scripts to automate tasks like calculating sales taxes for a shopping cart."
-              link="#"
+              link="https://github.com/Ensign-College/cs220-cc-04-elbrianslayers"
             />
           </div>
 
