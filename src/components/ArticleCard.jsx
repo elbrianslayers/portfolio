@@ -8,7 +8,7 @@ export default function ArticleCard({ date, title, content, link }) {
       <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">{content}</p>
 
       <a href={link} className="text-sm text-teal-500 font-medium hover:text-teal-600 transition-colors">
-        Read article
+        View project
       </a>
     </article>
   );
