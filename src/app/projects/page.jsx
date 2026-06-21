@@ -8,21 +8,21 @@ export default function Projects() {
       description:
         "A few different react components I made for class. It includes things like a navigation bar, a signup form, and widgets to show my skills and work experience.",
       link: "https://github.com/Ensign-College/cs220-cc-09-elbrianslayers",
-      logo: "/react-icon.png",
+      logo: "/portfolio/react-icon.png",
     },
     {
       name: "Dark Mode Theme Switcher",
       description:
         "A simple button that lets you switch a website between light and dark mode. This assignment helped me figure out how to use React state and Tailwind CSS together.",
       link: "https://github.com/Ensign-College/cs220-cc-16-elbrianslayers.git",
-      logo: "/react-icon.png",
+      logo: "/portfolio/react-icon.png",
     },
     {
       name: "JavaScript Taxes Challenge",
       description:
         "One of my first JavaScript challenges. It calculates taxes based on different variables. It was really good practice for learning basic JavaScript logic and working with arrays.",
       link: "https://github.com/Ensign-College/cs220-cc-04-elbrianslayers",
-      logo: "/js-icon.png",
+      logo: "/portfolio/js-icon.png",
     },
   ];
 
